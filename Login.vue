@@ -18,7 +18,7 @@
 
 <style lang="scss" scoped>
 	.login-bar{
-		background-image: url(https://pic4.zhimg.com/100/v2-ce6afb652d5269a625392a197f07dca7_hd.png);
+		background-image: url(https://static.zhihu.com/heifetz/assets/sign_bg.db29b0fb.png);
 		background-repeat: no-repeat;
 		background-color: #b8e5f8;
 		background-size: cover;

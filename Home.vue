@@ -47,6 +47,7 @@
 	.row{
 		border-style: solid;
 		border-width:0.01rem;
+		width: 100%;
 	}
 	.introduction{
 		width: 320px;
@@ -64,11 +65,15 @@
 	}
 	.col-4{
 		width: 100%;
+		text-decoration: none;
+		
+		
+		
 	}
 	.container{
 		margin-top: 10px;
-		margin-left: 425px;
-		width: 550px;
+		margin-left: 50px;
+		width: 600px;
 	}
 	.col-6{
 		display: -webkit-box;
