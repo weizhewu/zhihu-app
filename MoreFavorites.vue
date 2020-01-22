@@ -1,10 +1,5 @@
 <template>
-<div id="more-favorites">
-    <div class="header">
-       <div class="header-info">
-           <i class="fa fa-star"></i><span>热门收藏夹</span>
-       </div>
-    </div>
+<div >
     <div class="container">
      <div class="content"  v-for="(moreFavorite,index) in moreFavorites" :key="index">
         <div class="content-div1">
@@ -60,42 +55,12 @@
 </script>
 
 <style lang="scss" scoped>
-    #more-favorites{
-        background: #eee;
-        width: 100%;
-        height: 100%;
-		
-    }
-.header{
-    background: #fff;
-    box-shadow: 0 1px 3px rgba(26,26,26,.1);
-    .header-info{
-        display: flex;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center;
-        margin: 0 auto;
-        width: 1000px;
-        height: 100px;
-    }
-    i{
-        color:#0084ff;
-        font-size: 36px;
-        margin-left: 40px;
-    }
-    span {
-        margin-left: 12px;
-        font-size: 25px;
-        font-weight: 600;
-        font-synthesis: style;
-    }
-}
+    
+
 .container{
     width: 1000px;
-    margin: 10px auto 0;
     font-size: 15px;
     color: #1a1a1a;
-    -webkit-tap-highlight-color: rgba(26,26,26,0);
     min-height: 300px;
     .content{
         margin-top: 10px;

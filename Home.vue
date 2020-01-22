@@ -67,12 +67,10 @@
 		width: 100%;
 		text-decoration: none;
 		
-		
-		
 	}
 	.container{
 		margin-top: 10px;
-		margin-left: 50px;
+		margin-left: 415px;
 		width: 600px;
 	}
 	.col-6{
